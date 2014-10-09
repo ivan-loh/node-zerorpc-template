@@ -1,0 +1,11 @@
+{
+  "name": "rpc-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mongoose": "^3.8.17",
+    "zerorpc": "^0.9.3"
+  }
+}
