@@ -48,6 +48,8 @@ var client = new zerorpc.Client();
     });
 ```
 
+more sample client at https://github.com/ivan-loh/node-zerorpc-template/tree/master/client
+
 ## TODO
 * grunt support maybe ?
 * routing ?
