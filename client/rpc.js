@@ -1,8 +1,7 @@
 'use strict';
 
 var zerorpc = require("zerorpc"),
-    client  = new zerorpc.Client(),
-    self    = this;
+    client  = new zerorpc.Client();
 
 module.exports = {
 
