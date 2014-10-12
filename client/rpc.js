@@ -30,7 +30,7 @@ module.exports = {
       }
 
       new_args.push(function (err, res, more) {
-        if (err)   { done(err);          }
+        if (err)   { return done(err);          }
         if (res)   { result.push(res);   }
         if (!more) { done(null, result.length > 1 ? result : result[0]); }
       });
